@@ -1,0 +1,23 @@
+{
+  "name": "random-str-msg-basic",
+  "version": "1.0.0",
+  "description": "Generacion aleatoria de mensajes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "directory": "git+https://github.com/KevinPgg/random-str-msg-basic.git"
+  },
+  "keywords": [],
+  "author": "Kevin Palacios",
+  "license": "MIT",
+  "bin": {
+    "random-str-msg-basic": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
